@@ -1,0 +1,5 @@
+There is the option of using an Arduino to trigger camera shutters for synchronized video capture. If using this function, 
+
+1) Connect an arduino w/ digital pins 4 and 5 as outputs
+2) Load the arduino with the Camera_External_Trigger sketch
+3) In the matlab wrap and execute functions, set the use_ard_camtrig value to 1

@@ -1,0 +1,20 @@
+This arduino drives the trial-ready lights (on either side of the start location), and reads from the capacitive touch sensor.
+
+Optional connections are the red/green/yellow trial indicator lights on the front of the board which can be used for assisting synchronization between cameras and electrophysiology
+
+Required: 
+Lights indicating target location
+D4 and D5 = trial-ready lights
+
+Connections to cap-sensor
+3.3V = 3.3V
+Grnd = grnd
+A4=SDA
+A5=SCL
+
+Optional:
+D6 = red LED
+D7 = green LED
+D8 = yellow LED
+
+

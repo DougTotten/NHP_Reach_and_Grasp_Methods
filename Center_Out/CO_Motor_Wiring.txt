@@ -1,0 +1,6 @@
+This details how an arduino is connected to the TB6600 motor driver, and how that motor driver is connected to the 17HS19-1684S-PG14 stepper motor. 
+
+Arduino to driver
+
+
+Driver to motor

@@ -1,0 +1,25 @@
+This arduino drives the target-indicator lights (placed in each well), and reads from the capacitive touch sensor.
+
+Optional connections are the red/green/yellow trial indicator lights on the front of the board which cam be used for assisting synchronization between cameras and electrophysiology, and the contact monitor in back of the device to monitor cap-sensor readings. 
+
+Required: 
+
+Lights indicating target location
+D3 = top
+D4 = right
+D5 = bottom
+D6 = left
+
+Connections to cap-sensor
+3.3V = 3.3V
+Grnd = grnd
+A4=SDA
+A5=SCL
+
+Optional:
+D7 = green LED
+D8 = red LED
+D9 = yellow LED
+
+D10 = output to contact monitor
+
